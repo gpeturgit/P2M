@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="dbProducts" Class="dbProductsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LINDA-PC;Initial Catalog=dbProducts;Integrated Security=True" SettingsObjectName="P2MDEMO.Properties.Settings" SettingsPropertyName="dbProductsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbl_yfirflokkur" Member="tbl_yfirflokkurs">
+    <Type Name="tbl_yfirflokkur">
+      <Column Name="pk_yfirflokkur" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="texti" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_undirflokkur" Member="tbl_undirflokkurs">
+    <Type Name="tbl_undirflokkur">
+      <Column Name="pk_undirflokkur" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="fk_yfirflokkur" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="texti" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_vara" Member="tbl_varas">
+    <Type Name="tbl_vara">
+      <Column Name="pk_vara" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="fk_undiflokkur" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="vorunumer_byrgja" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="vara" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="eining" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="stk" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

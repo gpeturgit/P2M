@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="dbProducts">
+  <DataContextMoniker Name="/dbProductsDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b9891b3c-e042-4ad5-8088-c72df236fb1b" absoluteBounds="1.875, 2.625, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/dbProductsDataContext/tbl_yfirflokkur" />
+      <nestedChildShapes>
+        <elementListCompartment Id="26e9e991-977c-485b-aef4-32ed51012906" absoluteBounds="1.8900000000000001, 3.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0435bdc5-dcc4-4a15-adc4-990ba47803b8" absoluteBounds="4.5, 3.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/dbProductsDataContext/tbl_undirflokkur" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b19ddcde-0c2e-407b-9789-0474922dd29f" absoluteBounds="4.515, 3.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="37e507de-d900-4b49-abf2-2efe006b3688" absoluteBounds="6.625, 0.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/dbProductsDataContext/tbl_vara" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b8ed9dc3-b07c-4325-9eb4-0bc740d22fc8" absoluteBounds="6.64, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
